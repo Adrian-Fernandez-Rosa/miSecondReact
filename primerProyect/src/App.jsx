@@ -5,6 +5,8 @@
 import './App.css'
 import ContactList from './components/container/contact_list'
 import TaskListComponent from './components/container/task_list'
+import Ejemplo1 from './hooks/Ejemplo1'
+import Ejemplo2 from './hooks/Ejemplo2'
 
 
 function App() {
@@ -13,13 +15,16 @@ function App() {
   return (
     <>
      
-     {/* Componente propio greeting.jsx */}
+      {/* Componente propio greeting.jsx */}
       {/* <Greeting name="adri"/> */}
       {/* <GreetingF name="Adriancitus" /> */}
-      <TaskListComponent />
-      <hr></hr>
+      {/* <TaskListComponent /> */}
+      {/* Ejemplos de uso de HOOKS  */}
+      {/* <Ejemplo1 /> */}
+      <Ejemplo2 />
+      {/* <hr></hr>
       <h1>mis ejercicios</h1>
-      <ContactList />
+      <ContactList /> */}
     </>
   )
 }
