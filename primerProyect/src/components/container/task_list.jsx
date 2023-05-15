@@ -9,10 +9,12 @@ const TaskListComponent = () => {
     const defaultTask = new Task('Example', 'Default Description', false, LEVELS.NORMAL)
     // Estado del componente
     const [tasks, setTasks] = useState(defaultTask);
+    const [loading, setLoading] = useState(true);
 
     // Control del ciclo de vida del componente
     useEffect(() => {
-        console.log("Modificacion de tareas")
+        console.log("Modificacion de tareas");
+        setLoading(false);
         return () => {
             console.log("el componente de la lista de tareas se desmontara")
 
