@@ -19,3 +19,7 @@
 Hooks son funciones que lo que hacen es simplificar o especificar mecanismos para trabajar con componentes funcionales.
 
 mientras que los componentes de tipo clase tenian un estado de tipo privado un contructor 
+
+[Ejemplo1 useState](primerProyect/src/hooks/Ejemplo1.jsx)
+
+[Ejemplo 2  useState useEffect useRef](primerProyect/src/hooks/Ejemplo2.jsx)

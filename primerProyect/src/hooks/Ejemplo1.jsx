@@ -7,7 +7,12 @@
  */
 
 import React, { useState } from 'react';
-
+/**
+ * Los componentes funcionales no tienen constructores ni métodos
+ * que se puedan sobreescribir, por lo que se debe declarar
+ * 
+ * 
+ */
 const Ejemplo1 = () => {
 
     // Valor inicial para contador
@@ -28,6 +33,11 @@ const Ejemplo1 = () => {
      *
      */
 
+    /**
+     * no hay que declarar todas las variables con useState
+     * solo aquellas que queremos almacenar en el componente 
+     * y implica un renderizado nuevo del componente
+     */
     const [contador, setContador] = useState(valorInicial);
     const [persona, setPersona] = useState(personaInicial);
 
